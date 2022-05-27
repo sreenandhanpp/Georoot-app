@@ -1,4 +1,6 @@
 import './App.css'
+import Product from './components/Product';
+import Rating from './components/Rating';
 import data from './data'
 function App() {
   return (
@@ -46,23 +48,8 @@ function App() {
     <div className="container">
         <div className="row">
          { data.products.map((product)=>(
-
-           <div key={product._id} className="col-md-3 p-3 col-xm-6">
-                <div  className="card" style={{width: "15rem"}}>
-                    <img src={product.images} className="card-img-top" alt={product.name}></img>
-                    <div className="card-body">
-                      <h5 className="product-name">{product.name}</h5>
-                      <p className="price">{product.price}</p>
-                      <span className="rating">
-                          <i className="fa fa-star"></i>
-                          <i className="fa fa-star"></i>
-                          <i className="fa fa-star"></i>
-                          <i className="fa fa-star"></i>
-                          <i className="fa fa-star"></i>                        
-                        </span>                      
-                    </div>
-                  </div>
-            </div>
+           <Product key={product._id} product={product} ></Product>
+           
          ))
           }
             

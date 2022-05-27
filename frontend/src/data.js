@@ -5,7 +5,7 @@ const data = {products : [{
     images:"/images/p1.webp",
     brand:"abidass",
     price:1200,
-    rating:4.5,
+    rating:2.5,
     numRiviews:20,
     description:"high quality"
 },
@@ -16,8 +16,8 @@ const data = {products : [{
     images:"/images/p1.webp",
     brand:"abidass",
     price:1200,
-    rating:4.5,
-    numRiviews:20,
+    rating:1.5,
+    numRiviews:30,
     description:"high quality"
 },
 {
@@ -27,7 +27,7 @@ const data = {products : [{
     images:"/images/p1.webp",
     brand:"abidass",
     price:1200,
-    rating:4.5,
+    rating:3.5,
     numRiviews:20,
     description:"high quality"
 },
@@ -38,7 +38,7 @@ const data = {products : [{
     images:"/images/p1.webp",
     brand:"abidass",
     price:1200,
-    rating:4.5,
+    rating:4,
     numRiviews:20,
     description:"high quality"
 },
